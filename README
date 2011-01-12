@@ -1,0 +1,24 @@
+jQuery plugin to make text selectable or not selectable by the user.
+
+Simply select the element and run the selectable function with a boolean input, false 
+to make unselectable and true to make selectable.
+
+Example:
+	<html>
+		<head>
+			<script type="text/javascript" src="js/jquery.js"></script>
+			<script type="text/javascript">
+				$(function(){
+					$('some_element').selectable(false);
+				});
+			</script>
+		</head>
+		<body>
+			<div id="some_element">
+				This text is not selectable.
+			</div>
+			<div>
+				This text is selectable.
+			</div>
+		</body>
+	</html>
